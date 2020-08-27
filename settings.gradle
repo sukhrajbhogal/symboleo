@@ -1,0 +1,4 @@
+include 'org.xtext.example.symboleo'
+include 'org.xtext.example.symboleo.ide'
+include 'org.xtext.example.symboleo.tests'
+include 'org.xtext.example.symboleo.ide.tests'

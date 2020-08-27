@@ -1,0 +1,11 @@
+dependencies {
+	compile project(':org.xtext.example.symboleo')	
+	compile project(':org.xtext.example.symboleo.ide')
+	testCompile 'org.junit.jupiter:junit-jupiter-api'
+	testRuntime 'org.junit.jupiter:junit-jupiter-engine'
+	testCompile "org.eclipse.xtext:org.eclipse.xtext.testing:${xtextVersion}"
+	testCompile "org.eclipse.xtext:org.eclipse.xtext.xbase.testing:${xtextVersion}"
+}
+test {
+	useJUnitPlatform()
+}
